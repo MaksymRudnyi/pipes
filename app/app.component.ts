@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 
     ]
 })
-export class AppComponent { }
+export class AppComponent {
+    birthday = new Date(1988, 3, 15);
+}
