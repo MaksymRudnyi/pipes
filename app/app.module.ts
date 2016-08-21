@@ -6,6 +6,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 
 import { HeroBirthdayComponent } from './hero-birthday1.component';
+import { HeroBirthday2Component } from './hero-birthday2.component';
 
 @NgModule({
     imports: [
@@ -19,7 +20,7 @@ import { HeroBirthdayComponent } from './hero-birthday1.component';
         //FlyingHeroesImpureComponent,
         //HeroAsyncMessageComponent,
         HeroBirthdayComponent,
-        //HeroBirthday2Component,
+        HeroBirthday2Component,
         //HeroListComponent,
         //PowerBoosterComponent,
         //PowerBoostCalculatorComponent,
