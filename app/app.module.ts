@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-//import { FormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
@@ -9,13 +9,14 @@ import { HeroBirthdayComponent } from './hero-birthday1.component';
 import { HeroBirthday2Component } from './hero-birthday2.component';
 
 import { PowerBoosterComponent } from './power-booster.component';
+import { PowerBoostCalculatorComponent } from './power-boost-calculator.component';
 
 import { ExponentialStrengthPipe } from './exponential-strength.pipe';
 
 @NgModule({
     imports: [
         BrowserModule,
-        //FormsModule,
+        FormsModule,
         HttpModule
     ],
     declarations: [
@@ -27,7 +28,7 @@ import { ExponentialStrengthPipe } from './exponential-strength.pipe';
         HeroBirthday2Component,
         //HeroListComponent,
         PowerBoosterComponent,
-        //PowerBoostCalculatorComponent,
+        PowerBoostCalculatorComponent,
         //FlyingHeroesPipe,
         //FlyingHeroesImpurePipe,
         //FetchJsonPipe,
