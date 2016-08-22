@@ -8,6 +8,10 @@ import { AppComponent } from './app.component';
 import { HeroBirthdayComponent } from './hero-birthday1.component';
 import { HeroBirthday2Component } from './hero-birthday2.component';
 
+import { PowerBoosterComponent } from './power-booster.component';
+
+import { ExponentialStrengthPipe } from './exponential-strength.pipe';
+
 @NgModule({
     imports: [
         BrowserModule,
@@ -22,12 +26,12 @@ import { HeroBirthday2Component } from './hero-birthday2.component';
         HeroBirthdayComponent,
         HeroBirthday2Component,
         //HeroListComponent,
-        //PowerBoosterComponent,
+        PowerBoosterComponent,
         //PowerBoostCalculatorComponent,
         //FlyingHeroesPipe,
         //FlyingHeroesImpurePipe,
         //FetchJsonPipe,
-        //ExponentialStrengthPipe
+        ExponentialStrengthPipe
     ],
     bootstrap: [ AppComponent ]
 })

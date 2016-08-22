@@ -13,3 +13,22 @@
 <a id="happy-birthday2"></a>
 <h2>Hero Birthday v2</h2>
 <hero-birthday2></hero-birthday2>
+<hr>
+<a id="birthday-pipe-chaining"></a>
+<h2>Birthday Pipe Chaining</h2>
+<p>
+    The chained hero's birthday is
+    {{ birthday | date | uppercase}}
+</p>
+
+<p>
+    The chained hero's birthday is
+    {{  birthday | date:'fullDate' | uppercase}}
+</p>
+<p>
+    The chained hero's birthday is
+    {{ ( birthday | date:'fullDate' ) | uppercase}}
+</p>
+<hr>
+<a id="power-booster"></a>
+<power-booster></power-booster>
