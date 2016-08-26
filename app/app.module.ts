@@ -22,7 +22,9 @@ import {
     FlyingHeroesImpurePipe
     } from './flying-heroes.pipe';
 
+import { FetchJsonPipe } from './fetch-json.pipe';
 import { ExponentialStrengthPipe } from './exponential-strength.pipe';
+import { HeroListComponent } from './hero-list.component';
 
 @NgModule({
     imports: [
@@ -34,10 +36,10 @@ import { ExponentialStrengthPipe } from './exponential-strength.pipe';
         AppComponent,
         FlyingHeroesComponent,
         FlyingHeroesImpureComponent,
-        //HeroAsyncMessageComponent,
+        HeroAsyncMessageComponent,
         HeroBirthdayComponent,
         HeroBirthday2Component,
-        //HeroListComponent,
+        HeroListComponent,
         PowerBoosterComponent,
         PowerBoostCalculatorComponent,
         FlyingHeroesPipe,
