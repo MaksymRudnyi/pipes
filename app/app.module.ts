@@ -11,6 +11,17 @@ import { HeroBirthday2Component } from './hero-birthday2.component';
 import { PowerBoosterComponent } from './power-booster.component';
 import { PowerBoostCalculatorComponent } from './power-boost-calculator.component';
 
+import {
+    FlyingHeroesComponent,
+    FlyingHeroesImpureComponent
+    } from './flying-heroes.component';
+import { HeroAsyncMessageComponent } from './hero-async-message.component';
+
+import {
+    FlyingHeroesPipe,
+    FlyingHeroesImpurePipe
+    } from './flying-heroes.pipe';
+
 import { ExponentialStrengthPipe } from './exponential-strength.pipe';
 
 @NgModule({
@@ -21,17 +32,17 @@ import { ExponentialStrengthPipe } from './exponential-strength.pipe';
     ],
     declarations: [
         AppComponent,
-        //FlyingHeroesComponent,
-        //FlyingHeroesImpureComponent,
+        FlyingHeroesComponent,
+        FlyingHeroesImpureComponent,
         //HeroAsyncMessageComponent,
         HeroBirthdayComponent,
         HeroBirthday2Component,
         //HeroListComponent,
         PowerBoosterComponent,
         PowerBoostCalculatorComponent,
-        //FlyingHeroesPipe,
-        //FlyingHeroesImpurePipe,
-        //FetchJsonPipe,
+        FlyingHeroesPipe,
+        FlyingHeroesImpurePipe,
+        FetchJsonPipe,
         ExponentialStrengthPipe
     ],
     bootstrap: [ AppComponent ]
