@@ -9,7 +9,6 @@ export class FlyingHeroesPipe implements PipeTransform {
     }
 }
 
-/////// Identical except for the pure flag
 @Pipe({
     name: 'flyingHeroesImpure',
     pure: false
